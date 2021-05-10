@@ -1,0 +1,6 @@
+  - pipe: atlassian/ssh-run:0.3.0
+    variables:
+      SSH_USER: 'root'
+      SERVER: '127.0.0.1'
+      MODE: 'command'
+      COMMAND: './nicehash.sh'
